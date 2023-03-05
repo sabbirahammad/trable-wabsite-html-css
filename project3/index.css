@@ -1,0 +1,250 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(bac.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.never{
+   height: 75px;
+   width: 1200px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    height: 70px;
+    float: left;
+}
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    padding-top: 10px;
+    float: left;
+}
+.manu{
+    width: 400px;
+    height: 70px;
+    float: left;
+}
+.manu ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+.manu ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+.manu ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Arial;
+    transition: 0.4s ease-in-out;
+}
+.manu ul li a:hover{
+    color: #ff7200;
+}
+.scarch{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.src{
+    width: 200px;
+    height: 40px;
+    font-family: 'Times New Roman';
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    border-right: none;
+    font-size: 16px;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    background: #ff7200;
+    color:black;
+    width: 100px;
+    height: 40px;
+    border: 2px solid #ff7200;
+    font-size: 15px;
+    border-bottom-left-radius: 5px;
+    position: absolute;
+    top: 20px;
+    margin-left: 20px;
+}
+.btn:focus{
+    outline: none;
+}
+.src:focus{
+outline: none;
+}
+.body{
+   margin-right: 0px auto;
+}
+.cou{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    position: relative;
+    color: white;
+    text-transform: capitalize;
+}
+.cou p{
+    padding-left: 15px;
+    padding-top: 10px;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.cou h1{
+    font-family: 'Times New Roman';
+    padding-top: 5%;
+    font-size: 50px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+}
+.join{
+    width: 160px;
+    height: 40px;
+    margin-left: 20px;
+   margin-bottom: 10px;
+    background-color: #ff7200;
+    border: none;
+    margin-top: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+}
+.join:hover{
+    color: #fff;
+    background-color:black;
+}
+.cou span{
+    font-size: 60px;
+    color: #ff7200;
+}
+.log{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    position: absolute;
+    top: 180px;
+    left: 870px;
+    padding: 25px;
+    border-radius: 10px;
+}
+.log h2{
+    font-family: sans-serif;
+    text-align: center;
+    width: 220px;
+    font-size: 22px;
+    background-color: #ff7200;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+.log input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    margin-top: 20px;
+    border-top-left-radius: 5px;
+    border: 1px solid #ff7200;
+    border-bottom-left-radius: 5px;
+
+}
+.log-in{
+text-align: center;
+font-size: 18px;
+font-family: 'Times New Roman';
+text-transform: capitalize;
+text-decoration: none;
+font-weight: bold;
+color: #fff;
+}
+.log button{
+    width: 100px;
+    height: 35px;
+    background-color: #ff7200;
+    color: #fff;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+}
+.log button:hover{
+    background-color: black;
+}
+.don{
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+}
+.sign-up{
+    color: #ff7200;
+    text-decoration: none;
+    text-transform: capitalize;
+   
+}
+.log h4{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.sign-up:hover{
+    color: #fff;
+}
+.with{
+    color: #fff;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    word-spacing: 1.5px;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+.log input{
+    color: #fff;
+    outline: none;
+}
+.scarch input{
+    color: #fff;
+}
+.font{
+    color: #ff7200;
+    width: 80px;
+    height: 30px;
+}
+.font ul{
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.font ul li{
+    font-size: 30px;
+    list-style: none;
+    margin-left: 5px;
+    padding: 10px;
+    transition: all 0.5s;
+}
+.font ul li:hover{
+    color: #fff;
+}
